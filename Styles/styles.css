@@ -5,7 +5,7 @@
         padding: 0;
     }
 
-@media screen and (max-width : 3840px) {
+@media screen and (max-width : 1024px) {
     body {
         background: url(../img/deskBgrd.jpeg);
         background-position: center;
@@ -115,13 +115,12 @@
 
 
 
-@media screen and (max-width : 800px) {
+@media screen and (max-width : 700px) {
     body {
         background: url(../img/tabBkgrd.jpeg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: 'Monserrat';
     }
  
     .nav {
@@ -134,7 +133,6 @@
  
     .navMenu {
         background-color: rgba(105, 105, 105, 0.5);
-        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
         border-radius: 5px;
         width: 100%;
         margin: 10px;
@@ -142,7 +140,7 @@
         text-align: center;
         font-size: larger;
         font-weight: bold;
-        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
     }
     
     .nav .navMenu a {
@@ -219,7 +217,7 @@
 }
 
 
-@media screen and (max-width : 450px) {
+@media screen and (max-width : 550px) {
     
     body {
         background: url(../img/mobileBkgrd.jpeg);
@@ -230,30 +228,25 @@
      
     }
  
-    .nav {
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        background-color: rgba(228, 228, 228, 0.582);
-        border-radius: 3px;
+    nav {
+        width: 100%;
     }
  
     .navMenu {
-        background-color: rgba(105, 105, 105, 0.5);
-        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+        background-color: rgba(105, 105, 105, 0.5);;
         width: 100%;
         margin: 10px;
         padding-top: 6px;
         text-align: center;
         font-size: larger;
         font-weight: bold;
-        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
         border-radius: 3px;
     }
     
     .nav .navMenu a {
         text-decoration: none;
         text-transform: uppercase;
+        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
     }
     
     .order {
