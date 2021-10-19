@@ -1,0 +1,319 @@
+    body,html {
+        height: 100%;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+@media screen and (max-width : 3840px) {
+    body {
+        background: url(../img/deskBgrd.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+ 
+    .nav {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        background-color: rgba(228, 228, 228, 0.582);
+        border-radius: 3px;
+    }
+ 
+    .navMenu {
+        background-color: rgba(105, 105, 105, 0.5);
+        font-family:'Monserrat', Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        width: 100%;
+        margin: 10px;
+        padding-top: 6px;
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+    }
+    
+    .nav .navMenu a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .order {
+        display: flex;
+        margin: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        background-color: rgba(228, 228, 228, 0.582);
+        border-radius: 5px;
+    }
+    .order img{
+       display: block;
+       margin-top: 1rem;
+       max-width: 150px;
+       
+    }
+    .order a {
+       display: block;
+       font-family: 'Montserrat';
+       font-weight: bolder;
+       text-align: center;
+       text-decoration: none;
+       text-transform: uppercase;
+    }
+    .map {
+        display: flex;
+        margin: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        background-color: rgba(228, 228, 228, 0.7);
+        background-size:cover;
+        border-radius: 5px;
+    }
+    .aboutP {
+        font-family: 'Monserrat' Arial, Helvetica, sans-serif;
+        margin: 1rem;
+        background-color: rgba(228, 228, 228, 0.7);
+        background-size:cover;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+    footer {
+        margin-top: auto;
+        margin: 1rem;
+        background-color: rgba(228, 228, 228, 0.7);
+        background-size:cover;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+    
+   /*Products displayed*/
+    .product {
+        display: flex;
+        margin: 0.7rem;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        background-color: rgba(228, 228, 228, 0.582);
+        border-radius: 5px;
+
+    }
+    .product img {
+        display: block;
+        max-width: 160px;
+        margin-right: 0.5rem;
+
+    }
+
+
+
+}    
+
+
+
+@media screen and (max-width : 800px) {
+    body {
+        background: url(../img/tabBkgrd.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+ 
+    .nav {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        background-color: rgba(228, 228, 228, 0.582);
+        border-radius: 3px;
+    }
+ 
+    .navMenu {
+        background-color: rgba(105, 105, 105, 0.5);
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        width: 100%;
+        margin: 10px;
+        padding-top: 6px;
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+        font-family: 'Montserrat';
+    }
+    
+    .nav .navMenu a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    /*Home Content*/
+    .order {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        background-color: rgba(228, 228, 228, 0.582);
+        border-radius: 5px;
+    }
+    .order img{
+       display: block;
+       margin-top: 1rem;
+       max-width: 150px;
+       
+    }
+    /*About Us Styles Tablet*/
+    .map {
+        display: flex;
+        margin: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        background-color: rgba(228, 228, 228, 0.7);
+        background-size:cover;
+        border-radius: 5px;
+    }
+    .aboutP {
+        margin: 1rem;
+        background-color: rgba(228, 228, 228, 0.7);
+        background-size:cover;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+    .footer-aboutus {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    
+    
+   /*Products displayed*/
+    .product {
+        display: flex;
+        margin: 0.7rem;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        background-color: rgba(228, 228, 228, 0.582);
+        border-radius: 5px;
+
+    }
+    .product img {
+        display: block;
+        max-width: 160px;
+        margin-right: 0.5rem;
+
+    }
+
+
+}
+
+
+@media screen and (max-width : 450px) {
+    
+    body {
+        background: url(../img/mobileBkgrd.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Montserrat';   
+     
+    }
+ 
+    .nav {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        background-color: rgba(228, 228, 228, 0.582);
+        border-radius: 3px;
+    }
+ 
+    .navMenu {
+        background-color: rgba(105, 105, 105, 0.5);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        margin: 10px;
+        padding-top: 6px;
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+        font-family: 'Montserrat';
+        border-radius: 3px;
+    }
+    
+    .nav .navMenu a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .order {
+        display: flex;
+        margin: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        background-color: rgba(228, 228, 228, 0.582);
+        border-radius: 5px;
+    }
+    .order img{
+       display: block;
+       margin-top: 1rem;
+       max-width: 150px;
+       
+    }
+    .order a {
+       display: block;
+       font-family: 'Montserrat';
+       font-weight: bolder;
+       text-align: center;
+       text-decoration: none;
+       text-transform: uppercase;
+    }
+    /*About Us Styles*/
+    .map {
+        display: flex;
+        margin: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        background-color: rgba(228, 228, 228, 0.7);
+        background-size:cover;
+        border-radius: 5px;
+    }
+    .aboutP {
+        margin: 1rem;
+        background-color: rgba(228, 228, 228, 0.7);
+        background-size:cover;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+    .footer-aboutus {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    
+   /*Products displayed*/
+    .product {
+        display: flex;
+        margin: 0.7rem;
+        padding: 2px;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        background-color: rgba(228, 228, 228, 0.582);
+        border-radius: 5px;
+
+    }
+    .product img {
+        display: block;
+        max-width: 160px;
+        margin-right: 0.5rem;
+
+    }
+}
