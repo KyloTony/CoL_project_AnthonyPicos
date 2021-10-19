@@ -56,7 +56,7 @@
     }
     .order a {
        display: block;
-       font-family: 'Montserrat';
+       font-family: 'Montserrat', Arial, Helvetica, sans-serif;
        font-weight: bolder;
        text-align: center;
        text-decoration: none;
@@ -133,7 +133,7 @@
  
     .navMenu {
         background-color: rgba(105, 105, 105, 0.5);
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
         border-radius: 5px;
         width: 100%;
         margin: 10px;
@@ -141,7 +141,7 @@
         text-align: center;
         font-size: larger;
         font-weight: bold;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     }
     
     .nav .navMenu a {
@@ -168,8 +168,9 @@
     /*About Us Styles Tablet*/
     .map {
         display: flex;
+        flex-direction: row;
         margin: 1rem;
-        flex-direction: column;
+        padding: 1rem;
         justify-content: center;
         align-items: center;
         height: 25%;
@@ -178,6 +179,7 @@
         border-radius: 5px;
     }
     .aboutP {
+        display:flex;
         margin: 1rem;
         background-color: rgba(228, 228, 228, 0.7);
         background-size:cover;
@@ -185,8 +187,12 @@
         padding: 1rem;
     }
     .footer-aboutus {
-        padding-top: 2px;
-        padding-bottom: 2px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 2rem;
+        background-color: rgba(228, 228, 228, 0.7);
+        background-size:cover;
+        border-radius: 5px;
     }
     
     
@@ -220,7 +226,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: 'Montserrat';   
+        font-family: 'Montserrat' Arial, Helvetica, sans-serif;   
      
     }
  
@@ -234,14 +240,14 @@
  
     .navMenu {
         background-color: rgba(105, 105, 105, 0.5);
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
         width: 100%;
         margin: 10px;
         padding-top: 6px;
         text-align: center;
         font-size: larger;
         font-weight: bold;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
         border-radius: 3px;
     }
     
@@ -268,7 +274,7 @@
     }
     .order a {
        display: block;
-       font-family: 'Montserrat';
+       font-family: 'Montserrat' ,Arial, Helvetica, sans-serif;
        font-weight: bolder;
        text-align: center;
        text-decoration: none;
