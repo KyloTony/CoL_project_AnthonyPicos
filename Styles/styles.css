@@ -121,6 +121,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        font-family: 'Monserrat';
     }
  
     .nav {
@@ -163,7 +164,6 @@
        display: block;
        margin-top: 1rem;
        max-width: 150px;
-       
     }
     /*About Us Styles Tablet*/
     .map {
