@@ -68,9 +68,10 @@
         text-decoration: none;
     }
 
+    .nav nav-menu {
+        
+    }
     .nav-toggle {
-        display: flex;
-        align-content: flex-end;
         color: grey;
         background: none;
         border: none;
