@@ -36,14 +36,24 @@
      .nav {
         margin: 0;
         padding: 0;
-
      }
+     .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+    }
+
      ul {
         list-style-type: none;
+
      }
      .nav-menu a {
         display: block;
-        width: 60px;
+        width: 90px;
+        justify-content: center;
+        align-items: center;
      }
 
     /*Dropdown Button*/
