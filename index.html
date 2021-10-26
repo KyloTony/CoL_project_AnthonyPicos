@@ -13,27 +13,79 @@
 
 <header>
     <nav class="nav">
-        <div class="nav-menu">
-            <a href="#" class="logo nav-link">logo</a>
-            <button class="nav-toggle">
+        <div class="nav-logo">
+            <a href="#" class="logo nav-link">Jewelry Store</a>
+            <button onclick="dropdown()" class="nav-toggle">
                 <i class="fas fa-bars"></i>
             </button>
-            <ul class="nav-menu">
-                <li class="nav-menu-item nav-link">
-                    <a href="index.html" class="nav-menu-link">Home</a>
-                </li>
-                <li class="nav-menu-item nav-link">
-                    <a href="contact-us.html" class="nav-menu-link">Contact Us</a>
-                </li>
-                <li class="nav-menu-item nav-link">
-                    <a href="cart.html" class="nav-menu-link">Cart</a>
-                </li>
-            </ul>
+            <div class="nav-menu">
+                <ul>
+                    <li class="nav-menu-item nav-link">
+                        <a href="index.html" class="nav-menu-link">Home</a>
+                    </li>
+                    <li class="nav-menu-item nav-link">
+                        <a href="contact-us.html" class="nav-menu-link">Contact Us</a>
+                    </li>
+                    <li class="nav-menu-item nav-link">
+                        <a href="cart.html" class="nav-menu-link">Cart</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
 
 <body>
+    
+    <!--First Product with dropdown-->
+    
+    <div class="product">
+        <img src="img/necklaces.png" alt="Gold necklace with pendant">
+        <div class="dropdown">
+            <button onclick="dropdown()" class="dropbtn"> 
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Product1</a>
+                <a href="#">Product2</a>
+            </div>
+        
+        </div>
+    </div>
+    
+    <!--Second Product with dropdown-->
+    
+    <div class="product">
+        <img src="img/bracelet.png" alt="Gold bracelet">
+        <div class="dropdown">
+            <button onclick="dropdown()" class="dropbtn"> <i class="fas fa-chevron-down"></i></button></button>
+        
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Product3</a>
+                <a href="#">Product4</a>
+            </div>
+        
+        </div>
+    </div>
+    
+    <!--Third Product with dropdown-->
+    
+    <div class="product">
+        <img src="img/rings.png" alt="Gold ring">
+        <div class="dropdown">
+            <button onclick="dropdown()" class="dropbtn"> <i class="fas fa-chevron-down"></i></button></button>
+        
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Product5</a>
+                <a href="#">Product6</a>
+            </div>
+        
+        </div>
+    </div>
+        
+    
+    
+    
     
     <!--<div class="order">
         <a href="pages/necklaces.html">Necklaces <img src="img\necklaces.png"
@@ -47,10 +99,10 @@
 
     <div class="order">
         <a href="pages/rings.html">Rings <img src="img\rings.png" alt="Gold and diamond ring Picture"></a>
-    </div>
+    </div>-->
 
 
-    <script src="Scripts/script.js"></script>-->
+    <script src="Scripts/script.js"></script>
 
 </body>
 
