@@ -13,25 +13,19 @@
 
 <header>
     <nav class="nav">
-        <div class="nav-logo">
-            <a href="#" class="logo nav-link">Jewelry Store</a>
-            <button onclick="dropdown()" class="nav-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="nav-menu">
-                <ul>
-                    <li class="nav-menu-item nav-link">
-                        <a href="index.html" class="nav-menu-link">Home</a>
-                    </li>
-                    <li class="nav-menu-item nav-link">
-                        <a href="contact-us.html" class="nav-menu-link">Contact Us</a>
-                    </li>
-                    <li class="nav-menu-item nav-link">
-                        <a href="cart.html" class="nav-menu-link">Cart</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
+        <label for="nav-checkbox" class="nav-toggle">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </label>
+        <ul class="nav-menu">
+            <li><a href="#">
+                <img src="img/mainImg.png" alt="Round image with beads necklace" width="100px">
+            </a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
     </nav>
 </header>
 

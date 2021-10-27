@@ -1,7 +1,30 @@
-* {
-        margin: 0;
-        box-sizing: border-box;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        height: 100vh;
     }
+
+.nav {
+    border-bottom: 1px solid gray;
+
+}
+
+.fas fa-bars, .fas fa-times {
+    width: 200px;
+}
+
+.nav-toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+}
 
 @media screen and (max-width : 1024px) {
 
@@ -25,59 +48,10 @@
         font-family: 'Montserrat', sans-serif;
     }*/
  
-    header {
-        background-color: rgba(228, 228, 228, 0.582);
-        height: 70px;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
-     .nav {
-        margin: 0;
-        padding: 0;
-     }
-     .logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 80px;
-        font-family: 'Monserrat', Arial, Helvetica, sans-serif;
-    }
-
-     ul {
-        list-style-type: none;
-
-     }
-     .nav-menu a {
-        display: block;
-        width: 90px;
-        justify-content: center;
-        align-items: center;
-     }
-
-    /*Dropdown Button*/
-    .dropbtn {
-        background: transparent;
-        box-shadow: 0px 0px 0px transparent;
-        border: 0px solid transparent;
-        text-shadow: 0px 0px 0px transparent;
-    }
-    .product {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     
-    /*Finish of Index Product Button Styles*/
-    .nav-toggle {
-        color: grey;
-        background: none;
-        border: none;
-        font-size: 30px;
-        padding:  0 20px;
-        line-height: 60px;
-    }
+     
+
+
     .order {
         display: flex;
         margin: 2rem;
