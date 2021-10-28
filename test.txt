@@ -74,3 +74,67 @@
             </div>
         </div>
     }
+
+    !old nav 2 {
+        <input type="checkbox" class="nav-checkbox">
+        <label for="nav-checkbox" class="nav-toggle">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </label>
+        <ul class="nav-menu">
+            <li><a href="#">
+                <img src="img/mainImg.png" alt="Round image with beads necklace" width="100px">
+            </a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    }
+
+! OLD BODY {
+    <!--First Product with dropdown-->
+    
+    <div class="product">
+        <img src="img/necklaces.png" alt="Gold necklace with pendant">
+        <div class="dropdown">
+            <button onclick="dropdown()" class="dropbtn"> 
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Product1</a>
+                <a href="#">Product2</a>
+            </div>
+        
+        </div>
+    </div>
+    
+    <!--Second Product with dropdown-->
+    
+    <div class="product">
+        <img src="img/bracelet.png" alt="Gold bracelet">
+        <div class="dropdown">
+            <button onclick="dropdown()" class="dropbtn"> <i class="fas fa-chevron-down"></i></button></button>
+        
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Product3</a>
+                <a href="#">Product4</a>
+            </div>
+        
+        </div>
+    </div>
+    
+    <!--Third Product with dropdown-->
+    
+    <div class="product">
+        <img src="img/rings.png" alt="Gold ring">
+        <div class="dropdown">
+            <button onclick="dropdown()" class="dropbtn"> <i class="fas fa-chevron-down"></i></button></button>
+        
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Product5</a>
+                <a href="#">Product6</a>
+            </div>
+        
+        </div>
+    </div>
+}
