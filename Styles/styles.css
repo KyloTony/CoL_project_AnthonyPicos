@@ -105,10 +105,12 @@ body {
         height: 21px;
     }
     .toggle-button .bar {
-        height: 3px;
+        height: 4px;
         width: 100%;
         background-color: white;
+        border-radius: 2px;
     }
+    
     .nav-links ul {
         width: 100%;
         flex-direction: column;
@@ -127,12 +129,7 @@ body {
     .nav-links.active {
         display: flex;
     }
-    .toggle-button .bar {
-        height: 3px;
-        width: 100%;
-        background-color: white;
-        border-radius: 3px;
-    }
+    
 
     /* ---- END OF NAVIGATION BAR & HAMBURGER MENU STYLES---- */
 
