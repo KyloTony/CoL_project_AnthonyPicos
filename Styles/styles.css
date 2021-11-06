@@ -1,6 +1,48 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Monserrat', Arial, Helvetica, sans-serif;
 }
@@ -137,6 +179,8 @@ body {
 
     /* ---- END OF ABOUT US PAGE STYLES ---- */
     
+
+
 }
 
 
@@ -242,5 +286,39 @@ body {
 
 /* ---- END OF ABOUT US PAGE STYLES ---- */
 
+/*Main Page Content Styles*/
+.main-page-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+    margin: 2rem 5rem;
+}
+
+.main-page-content > .product {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    padding: 1rem;
+    background-color: rgba(83, 83, 83, 0.9);
+    border-radius: 3px;
+}
+
+.product > p {
+    height: 30px;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    background-color: rgb(120, 120, 120);
+    background-size: cover;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.product > img {
+    height: 375px;
+}
+
+
+/*End of Main Page Content Styles*/
 
 }
