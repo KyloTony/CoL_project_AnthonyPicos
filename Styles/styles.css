@@ -338,33 +338,12 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
-
 .product-main-img {
+    height: 35vh;
     width: 20vmax;
+    align-self: center;
 }
-.home-submit {
-    display: flex;
-    padding: 2rem;
-    width: 20vw;
-    height: fit-content;
-    background-color: rgba(83, 83, 83, 0.9);
-    color: #FFFFFF;
-    border-radius: 3px;
-    margin: 3rem;
-}
-.home-submit-button {
-    height: 2vh;
-    width: 5vw;
-    right: 0;
-}
-.drop-down-products > li > img {    
-    display: flex;
-    background-size: 300px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-}
+
 .drop-down-item {
     flex-direction: column;
     margin: 1rem 2rem;
@@ -388,9 +367,39 @@ body {
     display: flex;
 }
 
+/*Submit button Desktop*/
+.home-submit {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 7vh;
+    padding: 1rem;
+    background-color: rgb(120, 120, 120);
+    color: white;
+    border-top-right-radius: 50px;
+    font-size: 25px;
+}
+}
+.home-submit-button {
+    display: flex;
+    background: none;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    height: 2vh;
+    width: 5vw;
+    right: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.home-submit-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
 /*-------------------------------------------------*/
 
-/*Footer*/
+/*Footer Desktop*/
 .footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
@@ -417,8 +426,10 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+.icons > a:visited {
+    color: #FFFFFF;
+}
 footer:hover {
     background-color: rgba(83, 83, 83, 0.7);
     opacity: 1;
-}
 }
