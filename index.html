@@ -33,7 +33,7 @@
     
      <div class="main-page-content">
         <div class="product">
-            <img src="img/bracelet.png" alt="Picture of a gold bracelet">
+            <img src="img/bracelet.png" alt="Picture of a gold bracelet" class="product-main-img">
             
             <p>Bracelets</p>
             <input type="button" value="Show more items" class="show-more-button">
@@ -52,24 +52,29 @@
 
 
         <div class="product">
-            <img src="img/necklaces.png" alt="Picture of a white gold necklace">
+            <img src="img/necklaces.png" alt="Picture of a white gold necklace" class="product-main-img">
             
             <p>Necklaces</p>
             <input type="button" value="Show more items" class="show-more-button">
-            <ul class="drop-down-item">
-                <li>
-                    <img src="img/products/necklace3mobile.png" alt="Yellow gold necklace with box type link design." class="product-img">
-                    <p><input type="checkbox" id="necklace1" class="input-main">14kt Yellow gold necklace with box type link design. </p>
-                </li>
-                <li>
-                    <img src="img/products/necklace4.png" alt="Rose gold necklace with fixed name plate" class="product-img">
-                    <p><input type="checkbox" id="necklace2" class="input-main">14kt Rose gold nameplate chain and fixed pendant. <br>(Customizable name engraving.)</p>
-                </li>
-            </ul>
+              <div>
+                <ul class="drop-down-item">
+                    <li>
+                        <img src="img/products/necklace3mobile.png" alt="Yellow gold necklace with box type link design."
+                            class="product-img">
+                        <p><input type="checkbox" id="necklace1" class="input-main">14kt Yellow gold necklace with box type link design.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="img/products/necklace4.png" alt="Rose gold necklace with fixed name plate" class="product-img">
+                        <p><input type="checkbox" id="necklace2" class="input-main">14kt Rose gold nameplate chain and fixed pendant.
+                            <br>(Customizable name engraving.)</p>
+                    </li>
+                </ul>
+              </div>  
         </div>
         
         <div class="product">
-            <img src="img/rings.png" alt="Picture of a pair of gold and diamond rings">
+            <img src="img/rings.png" alt="Picture of a pair of gold and diamond rings" class="product-main-img">
             
             <p>Rings</p>
             <input type="button" value="Show more items" class="show-more-button">
@@ -88,9 +93,7 @@
      </div>   
         
      <div class="home-submit">
-         <h2>
              Select your items and hit submit to make your order.
-         </h2>
          <input type="submit" id="home-submit-button" class="home-submit-button">
      </div>
      
@@ -100,8 +103,37 @@
     <script src="Scripts/script.js"></script>
 </body>
 
-<footer>
-    Follow Us
+<footer class="footer">
+    <p class="follow">Follow Us:</p>
+    <div class="socials">
+        <ul>
+            <li>
+                <div class="icons">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    Facebook
+                </div>
+            </li>
+            <li>
+                <div class="icons">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    Twitter
+                </div>
+            </li>
+            <li>
+                <div class="icons">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    Instagram
+                </div>
+            </li>
+            <li>
+                <div class="icons">
+                    <i class="fa fa-reddit" aria-hidden="true"></i>
+                    Reddit
+                </div>
+            </li>
+        </ul>
+    </div>
+    
 </footer>
 
 </html>

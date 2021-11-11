@@ -44,10 +44,11 @@ table {
 
 *{
     box-sizing: border-box;
-    font-family: 'Monserrat', Arial, Helvetica, sans-serif;
 }
 
 body {
+    font-family: 'Monserrat', Arial, Helvetica, sans-serif;
+    font-size: 16px;
     width: 100vw;
     height: 100vh;
     background-color: #f3f3e2;
@@ -58,7 +59,7 @@ body {
 @media screen and (max-width : 768px) {
     
     
-    /* ----NAVIGATION BAR & HAMBURGER MENU---- */
+    /* NAVIGATION BAR MOBILE*/
     
     .toggle-button {
         display: flex;
@@ -117,9 +118,9 @@ body {
     }
     
 
-    /* ---- END OF NAVIGATION BAR & HAMBURGER MENU STYLES---- */
+    /* ----------------------------------------- */
 
-    /* ---- ABOUT US PAGE STYLES ---- */
+    /* ABOUT US PAGE STYLES MOBILE */
 
     .map {
         background-size: .7rem;
@@ -177,7 +178,7 @@ body {
         margin-top: .2rem;
     }
 
-    /* ---- END OF ABOUT US PAGE STYLES ---- */
+    /* ------------------------------------ */
     
 
 
@@ -187,13 +188,17 @@ body {
 
 
 
+
+
+
+
 /* ---- Desktop media query---- */
 
 
 @media screen and (min-width : 1024px) {
-    
-    * {
-        font-size: 20px;
+    /* NAV BAR STYLES DESKTOP */
+    body {
+        font-size: 17px;
     }
     
     .nav {
@@ -210,7 +215,7 @@ body {
         margin: .5rem;
     }
     .nav-links ul {
-        margin: 0;
+        margin-right: 2rem;
         padding: 0;
         display: flex;
     }
@@ -242,8 +247,9 @@ body {
         width: 100%;
         background-color: white;
     }
+/*---------------------------------------------*/
 
-/* ---- ABOUT US PAGE STYLES ---- */
+/* ABOUT US PAGE STYLES DESKTOP*/
 .main-aboutus-content {
     display: flex;
     flex-wrap: wrap;
@@ -304,23 +310,22 @@ body {
 }
 
 
-/* ---- END OF ABOUT US PAGE STYLES ---- */
+/* ------------------------------------------ */
 
-/*Main Page Content Styles*/
+/*MAIN PAGE STYLES DESKTOP */
 .main-page-content {
     display: flex;
-    justify-content: space-evenly;
-    flex-shrink: 1;
     margin: 2rem 5rem;
 }
 
-.main-page-content > .product {
+.product {
     display: flex;
     flex-direction: column;
     margin: 0 2rem;
     padding: 1rem;
     background-color: rgba(83, 83, 83, 0.9);
     border-radius: 3px;
+    width: 30vw;
 }
 
 .product > p {
@@ -334,22 +339,23 @@ body {
     text-align: center;
 }
 
-.product > img {
-    height: 375px;
+.product-main-img {
+    width: 20vmax;
 }
 .home-submit {
     display: flex;
-    padding: 1rem;
-    width: fit-content;
+    padding: 2rem;
+    width: 20vw;
     height: fit-content;
     background-color: rgba(83, 83, 83, 0.9);
-    
     color: #FFFFFF;
     border-radius: 3px;
+    margin: 3rem;
 }
-.home-submit > .home-submit-button {
-    height: 3vh;
-    width: 10vw;
+.home-submit-button {
+    height: 2vh;
+    width: 5vw;
+    right: 0;
 }
 .drop-down-products > li > img {    
     display: flex;
@@ -362,23 +368,19 @@ body {
 .drop-down-item {
     flex-direction: column;
     margin: 1rem 2rem;
+    background-color: rgba(120, 120, 120, 0.5);
+    border-radius: 5px;
 }
-
 .drop-down-item > li > p {
+    display: flex;
+    flex-wrap: nowrap;
     color: #FFFFFF;
-    background-color: rgba(197, 197, 197, 0.123);
     padding: 1rem;
 }
-.input-main {
-    display: block;
-    width: 100%;
-}
-
 .product-img {
-    width: 250px;    
+    width: 250px;   
     margin: 2rem 1rem;
     padding: 1rem;
-    background-color: rgba(120, 120, 120, .5);
     border-radius: 10px;
     justify-content: center;
 }
@@ -386,15 +388,37 @@ body {
     display: flex;
 }
 
-/*End of Main Page Content Styles*/
+/*-------------------------------------------------*/
 
 /*Footer*/
-footer {
-    position: relative;
+.footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
     bottom: 0;
-    width: 100%;
-    height: 10vh;
-    background-color: rgba(83, 83, 83, 0.9);
+    right: 0;
+    width: 50%;
+    height: 7vh;
+    background-color: rgba(83, 83, 83, 0.3);
     color: white;
+    border-top-left-radius: 50px;
+    opacity: 0.5;
+    transition: opacity 150ms ease-in-out;
+    font-size: 25px;
+}
+.follow {
+    margin-top: .7rem;
+    margin-left: 3rem;
+}
+.socials {
+    margin-top: .5rem;
+}
+.socials > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer:hover {
+    background-color: rgba(83, 83, 83, 0.7);
+    opacity: 1;
 }
 }
