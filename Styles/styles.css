@@ -251,40 +251,39 @@ body {
 
 /* ABOUT US PAGE STYLES DESKTOP*/
 .main-aboutus-content {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 5%;
+    background-color: rgba(120, 120, 120, 0.8);
+    background-size: 40%;
+    border-radius: 3px;
+    padding: 2rem;
 }
 .map {
-    display: flex;
-    flex-direction: column-reverse;
     background-size: 0.7rem;
-    background-color: rgba(83, 83, 83, 0.9);
+    background-color: rgba(83, 83, 83, 0.3);
     margin: 0;
     border-radius: 3px;
-    width: max-content;
 }
 .map iframe {
-    margin: .4rem;
-    width: 400px;
-    height: 300px;
+    margin: 1rem;
+    width: 40vw;
+    height: 40vh;
 }
 .map p {
-    background-color: rgb(120, 120, 120);
+    background-color: rgba(120, 120, 120, 0.5);
     border-radius: 3px;
     background-size: cover;
     width: 400px;
     padding: 0.3rem;
-    margin: .4rem .4rem;
+    margin: .4rem;
     text-align: center;
     font-size: 12px;
     color: white;
     }
 .aboutP {
-    display: flex;
+    margin: 2vh 0;
     height: fit-content;
-    background-color: rgb(120, 120, 120);
+    background-color: rgba(120, 120, 120, 0.3);
     border-radius: 3px;
     width: fit-content;
     color: #FFFFFF;
@@ -295,13 +294,22 @@ body {
     padding: .4rem;
 }
 .schedule {
+    padding: 1.5rem;
+    width: 23vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #FFFFFF;
-    background-color: rgba(83, 83, 83, 0.9);
+    background-color: rgba(83, 83, 83, 0.4);
     border-radius: 3px;
+    font-size: 26px;
+    
+}
+.schedule p {
+    margin: 1rem;
 }
 .schedule > ul {
-    background-color: rgb(120, 120, 120);
+    background-color: rgba(120, 120, 120, 0.5);
     border-radius: 3px;
+    padding: 1rem;
     margin: .5rem;
     justify-content: space-evenly;
 }
