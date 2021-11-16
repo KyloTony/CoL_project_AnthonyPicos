@@ -116,11 +116,52 @@ body {
     .nav-links.active {
         display: flex;
     }
-    
+    /* Mobile Main Page Content */
 
+    /* Top Product Display */
+    .main-page-content {
+        display: block;
+    }
+    .product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(120, 120, 120, 0.3);
+        margin: 1.5rem;
+        margin-bottom: 4.0rem;
+    }
+    .product-main-img {
+        width: 80vw;
+        height: auto;
+        padding: .6rem;
+        border-bottom: 2.5px solid rgba(50, 50, 50, .5);
+    }
+    .product > p {
+        font-size: 22px;
+        margin: 0.3rem 0.5rem;
+        color: rgba(50, 50, 50, .9);
+        text-shadow: 2px 2px 5px #7c7c7c;
+    }
+
+    /* Items Inside -Product Display- */
+    .drop-down-item {
+        text-align: center;
+    }
+    .product-img {
+        width: 60vw;
+        height: auto;
+    }
+    .drop-down-item > li {
+        margin-top: 3rem;
+    }
+    .drop-down-item > li:nth-child(4) {
+        margin-bottom: 1rem;
+    }
+    
+    
     /* ----------------------------------------- */
 
-    /* ABOUT US PAGE STYLES MOBILE */
+    /* About Us Page Styles Mobile */
 
     .map {
         background-size: .7rem;
@@ -196,7 +237,7 @@ body {
 
 
 @media screen and (min-width : 1024px) {
-    /* NAV BAR STYLES DESKTOP */
+    /* Nav Bar Styles Desktop */
     body {
         font-size: 17px;
     }
@@ -249,7 +290,7 @@ body {
     }
 /*---------------------------------------------*/
 
-/* ABOUT US PAGE STYLES DESKTOP*/
+/* About Us Page Styles for Desktop */
 .main-aboutus-content {
     margin: 3%;
     background-color: rgba(120, 120, 120, 0.8);
@@ -323,7 +364,7 @@ body {
 
 /* ------------------------------------------ */
 
-/*MAIN PAGE STYLES DESKTOP */
+/*Main Page Styles for Desktop */
 .main-page-content {
     display: flex;
     margin: 2rem 5rem;
@@ -386,28 +427,25 @@ body {
 }
 
 
-/*Submit button Desktop*/
+/* Submit Button Desktop */
 .home-submit {
     font-family: Georgia, 'Times New Roman', Times, serif;
     bottom: 0;
     left: 0;
     width: 30%;
-    height: 7vh;
+    
     padding: 1rem;
     background-color: rgb(120, 120, 120);
     color: white;
     border-top-right-radius: 50px;
     font-size: 25px;
 }
-}
 .home-submit-button {
     display: flex;
-    background: none;
+    background: rgb(167, 155, 155);
     border: 3px solid #FFFFFF;
     border-radius: 4px;
     margin-top: 0.5rem;
-    height: 2vh;
-    width: 5vw;
     right: 0;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -415,8 +453,6 @@ body {
 .home-submit-button:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
-
-/*-------------------------------------------------*/
 
 /*Footer Desktop*/
 .footer {
@@ -452,3 +488,8 @@ footer:hover {
     background-color: rgba(83, 83, 83, 0.7);
     opacity: 1;
 }
+
+}
+
+/*-------------------------------------------------*/
+
