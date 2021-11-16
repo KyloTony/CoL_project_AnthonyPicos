@@ -134,7 +134,7 @@ body {
         width: 80vw;
         height: auto;
         padding: .6rem;
-        border-bottom: 2.5px solid rgba(50, 50, 50, .5);
+        border-bottom: 3px solid rgba(50, 50, 50, .5);
     }
     .product > p {
         font-size: 22px;
@@ -152,13 +152,62 @@ body {
         height: auto;
     }
     .drop-down-item > li {
-        margin-top: 3rem;
+        margin-top: 5rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .drop-down-item > li:nth-child(4) {
         margin-bottom: 1rem;
     }
+    .drop-down-item > li > p {
+        flex-direction: column;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-top: .5rem;
+        background-color: rgba(83, 83, 83, .5);
+        border-radius: 3px;
+        padding: 1rem 0;
+        color: #FFFFFF;
+        text-shadow: 1px 1px 5px #3b3b3b;
+    }
+    /* Footer for Mobile */
+    .home-submit {
+        background-color: #3b3b3b;
+        color: #FFFFFF;
+        text-shadow: 1px 1px 8px;
+        width: 100%;
+        height: fit-content;
+        padding: 0.5rem;
+    }
+    .home-submit > p {
+        padding: .5rem;
+    }
     
-    
+    .footer {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        height: 10vh;
+        border-top: 4px solid #FFFFFF;
+        bottom: 0;
+        background-color: #7c7c7c;
+        color: #FFFFFF;
+    }
+    .socials > ul {
+        display: flex;
+        text-orientation: sideways;
+        margin-top: 1rem;
+    }
+    .socials > ul > li {
+        margin-left: 0.7rem;
+    }
+    .follow {
+        margin: 0.3rem;
+        text-transform: uppercase;
+    }
+    .icons > a:visited {
+    color: #FFFFFF;
+    }
     /* ----------------------------------------- */
 
     /* About Us Page Styles Mobile */
