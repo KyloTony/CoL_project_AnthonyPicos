@@ -54,7 +54,7 @@ body {
     background-color: #f3f3e2;
     
 }
-/* ---- Mobile media query ---- */
+/* Mobile media query */
 
 @media screen and (max-width : 768px) {
     
@@ -188,10 +188,14 @@ body {
     .footer {
         font-family: Georgia, 'Times New Roman', Times, serif;
         height: 10vh;
+        width: 100%;
         border-top: 4px solid #FFFFFF;
-        bottom: 0;
         background-color: #7c7c7c;
         color: #FFFFFF;
+        bottom: 0;
+    }
+    #footer-about-specific-css {
+        position: absolute;
     }
     .socials > ul {
         display: flex;
@@ -260,6 +264,7 @@ body {
         padding: 1rem;
         border-radius: 3px; 
         color: white;
+        
     }
     .schedule ul {
         list-style-type: none;
@@ -276,13 +281,15 @@ body {
 
 
 
+/* Medium quey (~tab size)  TO DO LATER!!!!!!!!*/
+
+@media screen and (max-width : ) {
+    
+}
 
 
 
-
-
-
-/* ---- Desktop media query---- */
+/* Desktop media query */
 
 
 @media screen and (min-width : 1024px) {
@@ -422,11 +429,11 @@ body {
 .product {
     display: flex;
     flex-direction: column;
-    margin: 0 2rem;
+    margin: 0 .7rem;
     padding: 1rem;
     background-color: rgba(83, 83, 83, 0.9);
     border-radius: 3px;
-    width: 30vw;
+    width: 40vw;
 }
 
 .product > p {
@@ -451,15 +458,16 @@ body {
 .drop-down-item {
     flex-direction: column;
     margin: 1rem 2rem;
-    background-color: rgba(120, 120, 120, 0.5);
+    background-color: rgba(120, 120, 120, 0.6);
     border-radius: 5px;
 }
 .drop-down-item > li > p {
-    display: flex;
     text-transform: uppercase;
     flex-wrap: nowrap;
     color: #FFFFFF;
     padding: 1rem;
+    text-shadow: 2px 2px 5px #222222;
+    border-bottom: 1.5px solid #7c7c7c;
 }
 .scroll-list {
     width: auto;
@@ -482,7 +490,6 @@ body {
     bottom: 0;
     left: 0;
     width: 30%;
-    
     padding: 1rem;
     background-color: rgb(120, 120, 120);
     color: white;
