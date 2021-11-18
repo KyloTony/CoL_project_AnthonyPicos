@@ -52,8 +52,29 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #f3f3e2;
-    
+    overflow-x: hidden;
 }
+/* Scroll bars styles for whole page */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 /* Mobile media query FIRST*/
 
 @media screen and (max-width : 675px) {
@@ -341,6 +362,12 @@ body {
     .nameplate-img {
         margin: 0.5rem;
         height: 12vh;
+    }
+    .nameplate-img-pc {
+        display: none;
+    }
+    .letter-img-pc {
+        display: none;
     }
     .nameplate-form {
         width: fit-content;
@@ -647,7 +674,82 @@ footer:hover {
     opacity: 1;
 }
 
+/*-------------------------------------------------*/
+/*Contact Us Page Styles for Desktop*/
+.main-page-div {
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.contact-paragraph-div {
+    background-color: rgba(83, 83, 83, 0.7);
+    border-radius: 3px;
+    margin: 1rem ;
+    width: 40vw;
+    color: #FFFFFF;
+    padding: 0.7rem;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px #222222;
+    text-align: center;
+    line-height: 3rem;
+    flex-wrap: wrap;
+}
+.main-form-div {
+    background-color: rgba(83, 83, 83, 0.7);
+    margin: 1rem ;
+    width: fit-content;
+    padding: 0.7rem;
+    color: #FFFFFF;
+    border-radius: 3px;
+    flex-wrap: wrap;
+}
+.form-item {
+    margin: 0.3rem;
+}
+#description {
+    width: 300px;
+    height: 100px;
+}
+.customize-select-div {
+    display: flex;
+    background-color: rgba(83, 83, 83, 0.7);
+    margin: 1rem;
+    border-radius: 3px;
+    width: fit-content;
+    height: auto;
+    color: #FFFFFF;
+    align-content: space-between;
+}
+.nameplate {
+    padding: 3rem;
+}
+.letter-chain {
+    padding: 3rem;
+}
+.nameplate-img {
+    display: none;
+}
+.letter-img {
+    display: none;
+}
+.nameplate-img-pc {
+    width: 310px;
+    height: auto;
+    background-color: rgba(177, 177, 177, 0.2);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.letter-img-pc {
+    width: 190px;
+    height: auto;
+    background-color: rgba(177, 177, 177, 0.2);
+    padding: 1rem;
+    border-radius: 5px;
+}
 /*-------------------------------------------------*/
+
+
+}
+
+
 
