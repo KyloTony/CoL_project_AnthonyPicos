@@ -477,27 +477,27 @@ body {
 
 /* About Us Page Styles for Desktop */
 .main-aboutus-content {
-    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgba(120, 120, 120, 0.8);
+    margin: 3rem 10%;
     border-radius: 3px;
     padding: 2rem;
+    width: 75vw;
+    height: fit-content;
 }
 .map {
-    display: flex;
-    background-size: 0.7rem;
+    flex-wrap: wrap;
     border-radius: 3px;
-    width: 50vw;
     border: 3px solid #FFFFFF;
+    padding: 1rem;
+    margin: 0.5rem;
 }
 .map iframe {
     margin: 1rem;
-    width: 40vw;
-    height: 40vh;
+    width: 20vw;
+    height: 30vh;
     
-}
-.giffy {
-    position: absolute;
-    width: 30vw;
 }
 .map p {
     background-color: rgba(120, 120, 120, 0.5);
@@ -510,12 +510,16 @@ body {
     color: white;
     }
 .aboutP {
-    margin: 2vh 0;
+    flex-wrap: wrap;
+    margin: 0 3rem;
     height: fit-content;
     background-color: rgba(120, 120, 120, 0.3);
     border-radius: 3px;
     width: fit-content;
     color: #FFFFFF;
+    width: 35vw;
+    font-size: 23px;
+    text-shadow: 1px 1px 5px #3b3b3b;
 }
 .aboutP p {
     width: 600px;
@@ -524,23 +528,25 @@ body {
 }
 .schedule {
     padding: 1.5rem;
-    width: 23vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #FFFFFF;
     background-color: rgba(83, 83, 83, 0.4);
     border-radius: 3px;
     font-size: 26px;
+    margin: 1rem;
     
 }
 .schedule p {
     margin: 1rem;
+    text-shadow: 1px 1px 5px #3b3b3b;
 }
 .schedule > ul {
     background-color: rgba(120, 120, 120, 0.5);
     border-radius: 3px;
     padding: 1rem;
     margin: .5rem;
-    justify-content: space-evenly;
+    justify-items: space-evenly;
+    text-shadow: 1px 1px 5px #3b3b3b;
 }
 .schedule > ul > li {
     margin: 1rem 0;
