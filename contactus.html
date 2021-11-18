@@ -40,7 +40,7 @@
         do.<br>We will contact you
         as soon as we can!.
     </p>
-    <form class="form">
+    <form class="form-contact">
         <div>
             <label for="name">Name</label>
             <input type="text" name="name" id="name" placeholder="First Name" required>
@@ -55,14 +55,70 @@
         </div>
         <div>
             <label for="phone">Phone Number (Optional)</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number">
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
         </div>
         <div>
             <label for="description">Please describe us what you need.</label>
             <textarea id="description" name="description"></textarea>
         </div>
-    
+        <button type="submit">Submit</button>
+        <button type="reset">Reset All</button>
     </form>
+
+    <div class="customize-select">
+        <div class="nameplate">
+            <div>
+                <h3>Nameplate example from  our in-stock necklaces (*Necklace will be just like this*)</h3>
+                <img src="img/products/necklace4.png" alt="Rose gold necklace with fixed name plate." class="nameplate-img">
+            </div>
+            <form>
+                <label for="nameplate">Enter nameplate (Name, Date or Number) for engraving</label>
+                <input type="text" name="nameplate" id="nameplate" placeholder="Desired engraving">
+            </form>
+        </div>
+        <div class="letter-chain">
+            <div>
+                <h3>Letter chain from our in-stock necklaces (*Necklace will be just like this*)</h3>
+                <img src="img/products/necklace2.png" alt="White gold necklace with letter pendant attached." class="nameplate-img">
+            </div>
+            <form class="letter-chain-select">
+                <label for="letterchain">Choose a letter for your chain:</label>
+                <select name="letterchain" id="letterchain">
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    <option value="d">D</option>
+                    <option value="e">E</option>
+                    <option value="f">F</option>
+                    <option value="g">G</option>
+                    <option value="h">H</option>
+                    <option value="i">I</option>
+                    <option value="j">J</option>
+                    <option value="k">K</option>
+                    <option value="l">L</option>
+                    <option value="m">M</option>
+                    <option value="n">N</option>
+                    <option value="o">O</option>
+                    <option value="p">P</option>
+                    <option value="q">Q</option>
+                    <option value="r">R</option>
+                    <option value="s">S</option>
+                    <option value="t">T</option>
+                    <option value="u">U</option>
+                    <option value="v">V</option>
+                    <option value="w">W</option>
+                    <option value="x">X</option>
+                    <option value="y">Y</option>
+                    <option value="z">Z</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+
+
 
     <footer class="footer">
         <p class="follow">Follow Us:</p>
