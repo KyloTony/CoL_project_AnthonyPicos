@@ -54,7 +54,7 @@ body {
     background-color: #f3f3e2;
     
 }
-/* Mobile media query */
+/* Mobile media query first*/
 
 @media screen and (max-width : 768px) {
     
@@ -281,15 +281,15 @@ body {
 
 
 
-/* Medium quey (~tab size)  TO DO LATER!!!!!!!!*/
+/* Medium quey (~tab size) second*/
 
-@media screen and (max-width : ) {
+@media screen and (max-width : 992px) {
     
 }
 
 
 
-/* Desktop media query */
+/* Desktop(bigger screen, 16:9 pref) media query last*/
 
 
 @media screen and (min-width : 1024px) {
