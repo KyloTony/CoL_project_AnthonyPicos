@@ -33,53 +33,68 @@
         </nav>
     </header>
 
-    <p class="contactP">
-        Contact us here if you need any help or want to make an appointment to make an engraving or check If we have
-        something in stock
-        for example, just fill this form with your contact information and describe us below what you want to know or
-        do.<br>We will contact you
-        as soon as we can!.
-    </p>
-    <form class="form-contact">
-        <div>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="First Name" required>
-        </div>
-        <div>
-            <label for="lastname">Last Name</label>
-            <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
-        </div>
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Contact Email" required>
-        </div>
-        <div>
-            <label for="phone">Phone Number (Optional)</label>
-            <input type="tel" id="phone" name="phone" placeholder="Phone Number">
-        </div>
-        <div>
-            <label for="description">Please describe us what you need.</label>
-            <textarea id="description" name="description"></textarea>
-        </div>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset All</button>
-    </form>
-
-    <div class="customize-select">
-        <div class="nameplate">
-            <div>
-                <h3>Nameplate example from  our in-stock necklaces (*Necklace will be just like this*)</h3>
-                <img src="img/products/necklace4.png" alt="Rose gold necklace with fixed name plate." class="nameplate-img">
+   <div class="main-page-div">
+    
+    
+    <div class="contact-paragraph-div">
+        <p class="contact-paragraph">
+            Contact us here if you need any help or want to make an appointment to make an engraving or check If we have
+            something in stock
+            for example, just fill this form with your contact information and describe us below what you want to know or
+            do.<br><br><u>We will contact you
+            as soon as we can!.</u>
+        </p>
+    </div>
+    
+    <div class="main-form-div">
+        <form class="form-contact">
+            <div class="form-item">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="First Name" required>
             </div>
-            <form>
+            <div class="form-item">
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+            </div>
+            <div class="form-item">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Contact Email" required>
+            </div>
+            <div class="form-item">
+                <label for="phone">Phone Number (Optional):</label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+            </div>
+            <div class="form-item">
+                <label for="description">Please describe us what you need.</label>
+                <textarea id="description" name="description"></textarea>
+            </div>
+            <button type="submit" class="form-contact-button">Submit</button>
+            <button type="reset" class="form-contact-button">Reset All</button>
+        </form>
+    </div>
+    
+    
+    
+    
+    <div class="customize-select-div">
+        <div class="nameplate">
+            <div class="nameplate-div">
+                <h3>Nameplate example from our in-stock necklaces (*Necklace will be just like this*)</h3>
+                <img src="img/products/necklace4mobile.png" alt="Rose gold necklace with fixed name plate." class="nameplate-img">
+            </div>
+            <form class="nameplate-form">
                 <label for="nameplate">Enter nameplate (Name, Date or Number) for engraving</label>
-                <input type="text" name="nameplate" id="nameplate" placeholder="Desired engraving">
+                <br><input type="text" name="nameplate" id="nameplate" placeholder="Desired engraving">
+            <br><input type="submit" value="Submit">
             </form>
         </div>
+    
+    
         <div class="letter-chain">
-            <div>
+            <div class="letter-chain-div">
                 <h3>Letter chain from our in-stock necklaces (*Necklace will be just like this*)</h3>
-                <img src="img/products/necklace2.png" alt="White gold necklace with letter pendant attached." class="nameplate-img">
+                <img src="img/products/necklace2mobile.png" alt="White gold necklace with letter pendant attached."
+                    class="letter-img">
             </div>
             <form class="letter-chain-select">
                 <label for="letterchain">Choose a letter for your chain:</label>
@@ -116,7 +131,12 @@
             </form>
         </div>
     </div>
+
+
+
+   </div> 
     
+
 
 
 
@@ -150,9 +170,9 @@
                 </li>
             </ul>
         </div>
-    
+
     </footer>
-    
+
     <script src="Scripts/script.js"></script>
 </body>
 

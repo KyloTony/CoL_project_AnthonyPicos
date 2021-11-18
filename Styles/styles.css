@@ -54,12 +54,12 @@ body {
     background-color: #f3f3e2;
     
 }
-/* Mobile media query first*/
+/* Mobile media query FIRST*/
 
 @media screen and (max-width : 768px) {
     
     
-    /* NAVIGATION BAR MOBILE*/
+    /* Navigation bar mobile*/
     
     .toggle-button {
         display: flex;
@@ -274,14 +274,100 @@ body {
     }
 
     /* ------------------------------------ */
+
+    /* Contact Us page styles Mobile */
+
+    .main-page-div {
+        display: block;
+        margin: 0.3rem;
+    }
     
+    .contact-paragraph-div {
+        background-color: rgba(120, 120, 120, 0.3);
+        border-radius: 3px;
+        margin: 1.5rem 0;
+        padding: 0.5rem;
+        font-size: 20px;
+    }
+    .contact-paragraph {
+        color: rgba(50, 50, 50, .9);
+        text-shadow: 2px 2px 5px #7c7c7c;
+        padding: 0.4rem;
+    }
+    
+    .main-form-div {
+        background-color: rgba(120, 120, 120, 0.3);
+        border-radius: 3px;
+        margin: 0.5rem 0;
+        padding: 0.2rem;
+    }
+    .form-contact-button {
+        margin: 1rem;
+    }
+    .form-item {
+        width: fit-content;
+        background-color: rgba(120, 120, 120, 0.8);
+        border-radius: 3px;
+        margin: 0.5rem 0.2rem;
+        color: #FFFFFF;
+        padding: 0.2rem;
+    }
+    .form-item > label {
+        margin: 0.3rem;
+    }
+    .form-item > input {
+        margin: 0.3rem;
+    }
+    .form-item > textarea {
+        margin: 0.3rem; 
+    }
+    
+    .customize-select-div {
+        background-color: rgba(120, 120, 120, 0.3);
+        border-radius: 3px;
+    }
+    .nameplate-div {
+        padding: 1rem;
+    }
+    .nameplate-img {
+        margin: 0.5rem;
+        height: 12vh;
+    }
+    .nameplate-form {
+        width: fit-content;
+        background-color: rgba(120, 120, 120, 0.8);
+        border-radius: 3px;
+        margin: 0.5rem 0.2rem;
+        color: #FFFFFF;
+        padding: 0.2rem;
+    }
 
+    .letter-chain {
+        border-top: 3px solid rgba(50, 50, 50, .5);
+        margin-top: 1rem;
+    }
+    .letter-chain-div {
+        padding: 1rem;
+    }
+    .letter-img {
+        margin: 0.5rem;
+        height: 33vh;
+    }
+    .letter-chain-select {
+        width: fit-content;
+        background-color: rgba(120, 120, 120, 0.8);
+        border-radius: 3px;
+        margin: 0.5rem 0.2rem;
+        color: #FFFFFF;
+        padding: 0.2rem;
+    }
 
+    /* ------------------------------------ */
 }
 
 
 
-/* Medium quey (~tab size) second*/
+/* Medium quey (~tab size) SECOND*/
 
 @media screen and (max-width : 992px) {
     
@@ -289,7 +375,7 @@ body {
 
 
 
-/* Desktop(bigger screen, 16:9 pref) media query last*/
+/* Desktop(bigger screen, 16:9 pref) media query LAST*/
 
 
 @media screen and (min-width : 1024px) {
