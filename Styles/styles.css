@@ -56,7 +56,7 @@ body {
 }
 /* Mobile media query FIRST*/
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 675px) {
     
     
     /* Navigation bar mobile*/
@@ -327,7 +327,16 @@ body {
         border-radius: 3px;
     }
     .nameplate-div {
+        color: #FFFFFF;
         padding: 1rem;
+        text-shadow: 1px 1px 5px #3b3b3b;
+        border-radius: 3px;
+        margin: 0.5rem 0.2rem;
+    }
+    .nameplate-div > h3 {
+        border-radius: 3px;
+        padding: 0.5rem;
+        background-color: rgba(120, 120, 120, 0.8);
     }
     .nameplate-img {
         margin: 0.5rem;
@@ -341,13 +350,25 @@ body {
         color: #FFFFFF;
         padding: 0.2rem;
     }
+    .nameplate-form * {
+        margin: 0.3rem;
+    }
 
     .letter-chain {
-        border-top: 3px solid rgba(50, 50, 50, .5);
         margin-top: 1rem;
+        border-top: 2px solid #7c7c7c;
     }
     .letter-chain-div {
+        color: #FFFFFF;
         padding: 1rem;
+        text-shadow: 1px 1px 5px #3b3b3b;
+        border-radius: 3px;
+        margin: 0.5rem 0.2rem;
+    }
+    .letter-chain-div > h3 {
+        border-radius: 3px;
+        padding: 0.5rem;
+        background-color: rgba(120, 120, 120, 0.8);
     }
     .letter-img {
         margin: 0.5rem;
@@ -361,18 +382,13 @@ body {
         color: #FFFFFF;
         padding: 0.2rem;
     }
+    .letter-chain-select * {
+        margin: 0.2rem;
+    }
+
 
     /* ------------------------------------ */
 }
-
-
-
-/* Medium quey (~tab size) SECOND*/
-
-@media screen and (max-width : 992px) {
-    
-}
-
 
 
 /* Desktop(bigger screen, 16:9 pref) media query LAST*/
