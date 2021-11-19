@@ -46,10 +46,26 @@ Hello my name is Anthony Picos Perez and this is my first website, for the Code 
 
     ~ (Desktop/Bigger screen query) Footer has CSS selector that has its deffault to have opacity 0.5 and another CSS selector with pseudo class with :hover that gives it more opacity of 1 keeping same color. Plus a transition in its default for the opacity with 150ms ease-in-out to be a little more fluid with this small animation.
 
+    ~ <!> (Not a feature) I added some CSS resets on the very top of the CSS syles page, removing all types of defaults for every web browser. Recomendation from YouTube tutorial and StackOverflow.
+
 
     ----------How many media queries?
 
     ~ There is two media queries for small/mobile 675px wide devices and another one that is for bigger/desktop from 675px to 2560px wide screens.
+
+    ----------Whats the size of the images used on my website?
+
+    ~ I managed using Gimp software to compress images and keep the .png file type transparency to be 1.77MB.
+
+    ----------test.txt file
+
+    ~This txt onli ignore it, it has older and backups html and css code for any case somethig didn't work.
+
+
+    Thank you!
+    (Please, I'm sorry if there is any grammar error my main language its not english.)
+    I tried my best.
+    Anthony Picos Perez.
 
 
 
