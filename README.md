@@ -62,9 +62,8 @@ Hello my name is Anthony Picos Perez and this is my first website, for the Code 
     ~This txt onli ignore it, it has older and backups html and css code for any case somethig didn't work.
 
 
-    Thank you!
+    
     (Please, I'm sorry if there is any grammar error my main language its not english.)
-    I tried my best.
     Anthony Picos Perez.
 
 
