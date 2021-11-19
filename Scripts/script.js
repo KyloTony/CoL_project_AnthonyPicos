@@ -1,5 +1,8 @@
 
 // Hamburger Menu drop down function //
+
+// Same info on the Readme file//
+
 // My constants toggleButton and navbarLinks grabs the two classes inside all html pages in the NAV toggleButton gets the button with 3 lines//
 // and navbarLinks gets the nav-links class that its a DIV with an UL inside with html links to every other page//
 // the my toggleButton has an Event Listener that when its clicked it will get the navbarLinks to add the :active class that its written on my css page to display it//
